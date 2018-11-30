@@ -8,9 +8,7 @@
 
 ![Trained Agent][image1]
 
-The files included in this repository implement a DQN agent capable of navigating a large square world with the goal of collecting yellow bananas while avoiding blue bananas.
-
-The environment is similar to that of...
+The files included in this repository implement a DQN agent capable of navigating a large square world with the goal of collecting yellow bananas while avoiding blue bananas. This environment is similar, but not identical to [Unity ML-Agents' Banana Collector](https://github.com/Unity-Technologies/ml-agents/blob/master/docs/Learning-Environment-Examples.md#banana-collector) environment.
 
 The mechanics of the envonment are as follows:
 
@@ -41,17 +39,15 @@ The environment is considered solved once the agent has an average score of +13 
 4. Create a Python environment for this project. I recommend using `conda` or `venv`.
 
 5. Activate that environment and install dependencies: 
-
-```
-pip install -r requirements.txt
-```
+    ```
+    pip install -r requirements.txt
+    ```
 
 ## Instructions
 
 1. Open the `Navigation.ipynb` notebook and adjust the path to the environment file based on its name and where you placed it.
 
 2. You are ready to start interacting with the environment.
-
-- Use the cells in sections 1, 2 and 3 to initialize and explore the environment
-- Run the cells in section 4 to train the agent. Feel free to change the hyperparameters in `dqn_agent.py` to see if you can improve training.
-- Run the cells in section 5 to test the agent.
+    - Use the cells in sections 1, 2 and 3 to initialize and explore the environment
+    - Run the cells in section 4 to train the agent. Feel free to change the hyperparameters in `dqn_agent.py` to see if you can improve training.
+    - Run the cells in section 5 to test the agent.
