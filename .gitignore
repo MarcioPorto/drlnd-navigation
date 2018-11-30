@@ -1,0 +1,8 @@
+__pycache__/
+.ipynb_checkpoints/
+
+double_dqn_weights.pth
+vanilla_dqn_weights.pth
+unity-environment.log
+Banana.app
+.ipynb_checkpoints
