@@ -32,3 +32,5 @@ I tried comparing the performance of using softmax activation or not in the outp
 ## Ideas for Future Work
 
 To improve upon these results, my main idea is to implement a series of DQN improvements that have been suggested in recent years, including: prioritized experience replay, dueling DQNs, multi-step bootstrap targets, distributional DQN, and noisy DQN. A source of inspiration, and a good reading to get started towards this goal is DeepMind's [Rainbow paper](https://arxiv.org/abs/1710.02298).
+
+Another idea would be to try different agorithms and see how they perform against DQN. Simpler methods such as SARSA and Q-Learning could be used for this purpose, along with many other policy-based methods.
