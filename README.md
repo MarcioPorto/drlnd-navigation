@@ -22,13 +22,13 @@ The mechanics of the envonment are as follows:
     - **`2`** - turn left
     - **`3`** - turn right
 
-The environment is solved once the agent has an average score of +13 over 100 consecutive episodes.
+The environment is considered solved once the agent has an average score of +13 over 100 consecutive episodes.
 
-## Setup
+## Getting Started
 
 1. Clone this repository.
 
-2. Download the environment from one of the links below.  You need only select the environment that matches your operating system:
+2. Download the environment from one of the links below. You need only select the environment that matches your operating system:
     - Linux: [click here](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P1/Banana/Banana_Linux.zip)
     - Mac OSX: [click here](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P1/Banana/Banana.app.zip)
     - Windows (32-bit): [click here](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P1/Banana/Banana_Windows_x86.zip)
@@ -38,12 +38,20 @@ The environment is solved once the agent has an average score of +13 over 100 co
 
 3. Place the downloaded file in the folder you cloned this repo to and unzip (or decompress) the file.
 
+4. Create a Python environment for this project. I recommend using `conda` or `venv`.
+
+5. Activate that environment and install dependencies: 
+
+```
+pip install -r requirements.txt
+```
+
 ## Instructions
 
 1. Open the `Navigation.ipynb` notebook and adjust the path to the environment file based on its name and where you placed it.
 
-2. You are ready to start interacting with the environment. Make sure to run all cells in sections 1 and 2.
+2. You are ready to start interacting with the environment.
 
-- Run cell #X if you want to train the agent again. Feel free to change the hyperparameters in `dqn_agent.py` to see if you can improve training.
-- Run cell #X if you want to test the agent. 
-    - You can optionally load the model weights from cell #X. Not running that cell will just use the current weights for the `agent` object.
+- Use the cells in sections 1, 2 and 3 to initialize and explore the environment
+- Run the cells in section 4 to train the agent. Feel free to change the hyperparameters in `dqn_agent.py` to see if you can improve training.
+- Run the cells in section 5 to test the agent.
